@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Adauga Curs Informatica"
+            android:textSize="24sp"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/etNumeCurs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:hint="Nume curs"
+            android:inputType="text"
+            android:importantForAutofill="no"
+            android:layout_marginTop="8dp" />
+
+        <EditText
+            android:id="@+id/etProfesor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:hint="Profesor"
+            android:inputType="textPersonName"
+            android:importantForAutofill="no"
+            android:layout_marginTop="8dp" />
+
+        <CheckBox
+            android:id="@+id/cbObligatoriu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:text="Curs obligatoriu"
+            android:layout_marginTop="8dp" />
+
+        <RadioButton
+            android:id="@+id/rbOnline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:text="Curs online"
+            android:layout_marginTop="8dp" />
+
+        <Spinner
+            android:id="@+id/spinnerCredite"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="8dp" />
+
+        <RatingBar
+            android:id="@+id/ratingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:stepSize="1"
+            android:layout_marginTop="8dp" />
+
+        <Switch
+            android:id="@+id/swActiv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:text="Curs activ"
+            android:layout_marginTop="8dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:text="Salveaza"
+            android:onClick="culegeDate"
+            android:layout_marginTop="16dp" />
+
+    </LinearLayout>
+
+</ScrollView>
