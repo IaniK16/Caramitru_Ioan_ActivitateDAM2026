@@ -18,6 +18,12 @@
         android:onClick="deschideAdaugare"
         android:text="Adauga curs" />
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="deschideLista"
+        android:text="Vezi cursuri" />
+
     <TextView
         android:id="@+id/tvRezultat"
         android:layout_width="match_parent"
